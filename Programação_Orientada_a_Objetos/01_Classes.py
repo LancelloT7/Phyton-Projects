@@ -1,7 +1,7 @@
 # Construindo uma classe em Python
 '''
 class Pessoas:
-    def __init__(self, nome, idade, cpf): # Self instancia todos os atributos sem ele não será possivel instaciar os atributos junto com a classe
+    def __init__(self, nome, idade, cpf): # Self instancia todos os atributos sem ele não será possivel instanciar os atributos junto com a classe
         self.nome = nome
         self.idade = idade
         self.cpf = cpf
