@@ -9,7 +9,7 @@ class Pessoas:
     def logar_sistema(self): #Método da Classe
         print(f'{self.nome} logando no sistema')
 
-p1 = Pessoas('Gabriel', 29, 42326396839)
+p1 = Pessoas('Gabriel', 29, 42300000000)
 p2 = Pessoas('Nicoli', 29, 00000000)
 
 
@@ -40,7 +40,7 @@ class Pessoas:
     def logar_sistema(self): #Método da Instancia
         print(f'{self.nome} logando no sistema')
 
-p1 = Pessoas('Gabriel', 29, 42326396839)
+p1 = Pessoas('Gabriel', 29, 400000000)
 p1.logar_sistema()
 print(Pessoas.possui_nome)
 print(Pessoas.possui_raca) '''
@@ -63,7 +63,7 @@ class Pessoas:
     def andar(cls):      # Self aponta para a instancia enauqnto cls aponta para classe
         print ('Estou andando')   
 
-p1 = Pessoas('Gabriel', 29, 42326396839)
+p1 = Pessoas('Gabriel', 29, 42300000000)
 
 print(Pessoas.possui_nome)
 print(Pessoas.possui_raca)
@@ -91,7 +91,7 @@ class Pessoas:
         cls.possui_nome = False # Com o CLS foi possivel alterar o valor de uma variavel da classe
         return None
 
-p1 = Pessoas('Gabriel', 29, 42326396839)
+p1 = Pessoas('Gabriel', 29, 42300000000)
 
 print(Pessoas.possui_nome)
 print(Pessoas.possui_raca)
@@ -129,7 +129,7 @@ class Pessoas:
             return False
             
 
-p1 = Pessoas('Gabriel', 29, 42326396839)
+p1 = Pessoas('Gabriel', 29, 42300000000)
 
 print(Pessoas.possui_nome)
 print(Pessoas.possui_raca)
